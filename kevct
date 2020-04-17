@@ -5,7 +5,7 @@ include "function.php";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[93m      \e[96m		CT			\e[93m \n";
+echo "\e[93m      \e[96m	CT		\e[93m \n";
 echo "\e[93m   \e[96m	Jangan Lupa Saling Suport	\e[93m \n";
 echo "\e[93m      \e[96m  SALAM SATU FAMILY  \e[93m \n";
 echo "\e[93m   \e[96m  4 HAL YANG WAJIB KAMU TAU \e[93m \n";
