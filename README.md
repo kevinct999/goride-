@@ -1,1 +1,1 @@
-# goride-
+# goride
