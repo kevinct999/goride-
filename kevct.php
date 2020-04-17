@@ -1,49 +1,53 @@
-@@ -1,34 +1,34 @@
 <?php
 date_default_timezone_set('Asia/Bandung');
 include "function.php";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[93m      \e[96m	CT		\e[93m \n";
-echo "\e[93m   \e[96m	Jangan Lupa Saling Suport	\e[93m \n";
-echo "\e[93m      \e[96m  SALAM SATU FAMILY  \e[93m \n";
-echo "\e[93m   \e[96m  4 HAL YANG WAJIB KAMU TAU \e[93m \n";
+echo "\e[93m      \e[96m m \n";
+echo "\e[93m   \e[96m    \n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m  =\e[95m 🤸  1. VOUCHER GOFOOD EATLAH ✓          🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m 🤸  2. VOUCHER GOFOOD 15K MINBEL 30K  ✓ 🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m 🤸  3. VOUCHER GOFOOD 10K MINBEL 30K  ✓ 🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m 🤸  4. VOUCHER DISKON GOVID-19    ✓     🇮🇩 \e[96m=\n";
-echo "\e[96m  =\e[95m 🤸  1. SAYA SUKA OPIK        ✓          🇮🇩 \e[96m=\n";
-echo "\e[96m  =\e[95m 🤸  2. SAYA TUKANG OPIK      ✓          🇮🇩 \e[96m=\n";
-echo "\e[96m  =\e[95m 🤸  3. SAYA DEMEN NGOPIK     ✓          🇮🇩 \e[96m=\n";
-echo "\e[96m  =\e[95m 🤸  4. SAYA MAU NGOPIK       ✓          🇮🇩 \e[96m=\n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[95m Sudah Punya User Id (Y/N ?: ";	
-echo "\e[95m APAKAH KAMU SUKA OPIK (Y/N ?: ";	
 $pilihy = trim(fgets(STDIN));
 if($pilihy == "y" || $pilihy == "sudah")
 echo "\e[96m▬▬▬▬▬pilih y atau sudah▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-if($pilihy == "y" || $pilihy == "Y")
-echo "\e[96m▬▬▬▬▬ WAJIB PILIH Y ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	goto login;
 login:
+echo "\e[96m▬▬▬▬▬tuliskan bacaan subma di bawah ini▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+$pass =  ( '║ User Login : ' );
+echo "\033[30;40m";
+$user = trim(fgets(STDIN));
+echo "\033[0m";
+if($user == "y")
 {
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[95m Ketik Nama Anda ?: ";
-	echo "\e[95m KLIK ASAL AJA ?: ";
 	$input = trim(fgets(STDIN));
 	echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 		goto ulang;
-
+}
+else
+{
+		echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";	
+		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+		echo "\e[96m[🚫]        \e[91mMasukkan User Registrasi      \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]              \e[91m⚠️ WARNING ⚠️             \e[96m [🚫]\n";
+		echo "\e[96m[🚫]           \e[91mSEGERA MINTA IZIN          \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]             \e[91m@subma Termux       \e[96m [🚫]\n";
+		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+goto login;
 }
 	return rtrim( $input, "\n" );
 ulang:
 echo "\n";
 echo "\e[96m            (Halo Apa Kabarmu $input)               \n";
-echo "\e[96m            (YOK MULAI NGOPIK $input)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
         $nama = nama();
@@ -56,6 +60,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $nohp = str_replace(")","",$nohp);
         $nohp = str_replace("-","",$nohp);
         $nohp = str_replace(" ","",$nohp);
+
         if (!preg_match('/[^+0-9]/', trim($nohp))) {
             if (substr(trim($nohp),0,3)=='62') {
                 $hp = trim($nohp);
@@ -121,7 +126,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("yellow",".");
         sleep(10);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD160420B"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD160420A"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$message);
         echo "\n".color("nevy","🔒▶️ Claim voc Dasar");
@@ -235,4 +240,5 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          goto ulang;
          }
 //  }
+
 // echo change()."\n";
